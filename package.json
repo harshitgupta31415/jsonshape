@@ -1,0 +1,20 @@
+{
+  "name": "jsonshape-cli",
+  "version": "0.1.0",
+  "description": "Detect structural and breaking changes between JSON payloads.",
+  "type": "module",
+  "bin": {
+    "jsonshape": "./bin/jsonshape.js"
+  },
+  "exports": "./lib/shape.js",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check bin/jsonshape.js && node --check lib/shape.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": ["json", "schema", "api", "contract", "diff", "cli"],
+  "author": "Harshit Gupta",
+  "license": "MIT"
+}
