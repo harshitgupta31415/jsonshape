@@ -1,0 +1,10 @@
+{
+  "user": {
+    "id": 108,
+    "name": "Kabir"
+  },
+  "roles": ["student", "mentor"],
+  "meta": {
+    "traceId": "demo-request"
+  }
+}

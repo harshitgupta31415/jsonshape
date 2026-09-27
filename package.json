@@ -9,7 +9,8 @@
   "exports": "./lib/shape.js",
   "scripts": {
     "test": "node --test",
-    "check": "node --check bin/jsonshape.js && node --check lib/shape.js"
+    "check": "node --check bin/jsonshape.js && node --check lib/shape.js",
+    "example": "node bin/jsonshape.js examples/baseline.json examples/candidate.json --mode compatible"
   },
   "engines": {
     "node": ">=20"
