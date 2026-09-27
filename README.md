@@ -49,6 +49,19 @@ violate the selected mode, and `2` for invalid input or usage.
 The tool deliberately stays smaller than JSON Schema. It is intended for quick
 contract checks against fixtures, snapshots, and real API responses.
 
+## Try the included contract
+
+The `examples/` directory contains a baseline response and a compatible
+candidate that adds request metadata without changing existing fields:
+
+```bash
+npm run example
+```
+
+Copy the fixtures when evaluating an integration, then replace fictional
+values with sanitized response shapes. Contract fixtures should never contain
+tokens, personal information, or unredacted production payloads.
+
 ## Development
 
 ```bash
